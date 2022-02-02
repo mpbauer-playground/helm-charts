@@ -19,11 +19,6 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
-      - name: Show cr info
-        run: |
-          cr --help
-          cr --version
-
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.1
         env:
