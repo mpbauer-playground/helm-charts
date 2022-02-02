@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   spring-boot-dummy:
   - apiVersion: v2
+    created: "2022-02-02T12:52:05.212797963Z"
+    description: Installs spring-boot-dummy application into an OpenShift cluster.1
+    digest: 1a6fe85c69d93a4d6f22c8371892286641e373026bce90d945c230e74d061733
+    name: spring-boot-dummy
+    type: application
+    urls:
+    - https://github.com/mpbauer-playground/helm-charts/releases/download/spring-boot-dummy-2.0.2/spring-boot-dummy-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
     created: "2022-02-02T12:48:43.28288552Z"
     description: Installs spring-boot-dummy application into an OpenShift cluster.
     digest: 97f4c866ff4ccb298555dc70c8c161ae6ae74a631bea5407be735a233abfe775
